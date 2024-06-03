@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+    	
+    <storageModule moduleId="org.eclipse.cdt.core.settings">
+        		
+        <cconfiguration id="cofluent.managedbuild.config.msvc2019.exe.release.1595560502">
+            			
+            <storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cofluent.managedbuild.config.msvc2019.exe.release.1595560502" moduleId="org.eclipse.cdt.core.settings" name="bw_managerAppBuild">
+                				
+                <externalSettings/>
+                				
+                <extensions>
+                    					
+                    <extension id="org.eclipse.cdt.core.PE" point="org.eclipse.cdt.core.BinaryParser"/>
+                    					
+                    <extension id="com.cofluent.studio.msvc.errorparser" point="org.eclipse.cdt.core.ErrorParser"/>
+                    				
+                </extensions>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+                				
+                <configuration artifactName="bw_managerApp" buildArtefactType="org.eclipse.cdt.build.core.buildArtefactType.exe" buildProperties="org.eclipse.cdt.build.core.buildArtefactType=org.eclipse.cdt.build.core.buildArtefactType.exe,org.eclipse.cdt.build.core.buildType=org.eclipse.cdt.build.core.buildType.release" description="bw_managerApp - Visual C++ 2019 - Windows 64-bit - Accellera" id="cofluent.managedbuild.config.msvc2019.exe.release.1595560502" name="bw_managerAppBuild" parent="cofluent.managedbuild.config.msvc2019.exe.release">
+                    					
+                    <folderInfo id="cofluent.managedbuild.config.msvc2019.exe.release.1595560502." name="/" resourcePath="">
+                        						
+                        <toolChain id="cofluent.managedbuild.toolchain.msvc2019.exe.release.606758097" name="CoFluent MSVC 2019 Release Tool-Chain" superClass="cofluent.managedbuild.toolchain.msvc2019.exe.release">
+                            							
+                            <targetPlatform id="com.cofluent.studio.msvc.targetPlatform.exe.release.1136376952" superClass="com.cofluent.studio.msvc.targetPlatform.exe.release"/>
+                            							
+                            <builder buildPath="/bw_manager/release/bw_managerAppBuild" id="com.cofluent.studio.internal.generators.builder.msvc.2018436230" keepEnvironmentInBuildfile="false" managedBuildOn="true" name="CoFluent MSVC Makefile Generator" parallelBuildOn="true" parallelizationNumber="optimal" stopOnErr="false" superClass="com.cofluent.studio.internal.generators.builder.msvc"/>
+                            							
+                            <tool commandLinePattern="${COMMAND} ${INPUTS} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT}" id="com.cofluent.studio.msvc.cl.exe.release.1854725435" name="C/C++ Compiler (cl)" superClass="com.cofluent.studio.msvc.cl.exe.release">
+                                								
+                                <option id="com.cofluent.studio.msvc.cl.option.includes.1781409931" name="Include Path (/I)" superClass="com.cofluent.studio.msvc.cl.option.includes" valueType="includePath">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/bw_manager/gen-sysc/bw_managerApp/include}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${scl_core_loc:/include/cofluent}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${scl_core_loc:/include/systemc}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/external/include}&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <option id="com.cofluent.studio.msvc.cl.option.macros.1747696425" name="Defines (/D)" superClass="com.cofluent.studio.msvc.cl.option.macros" valueType="definedSymbols">
+                                    									
+                                    <listOptionValue builtIn="false" value="WIN32=&quot;WIN32&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="_CRT_SECURE_NO_WARNINGS=_CRT_SECURE_NO_WARNINGS"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="_CRT_SECURE_NO_DEPRECATE=_CRT_SECURE_NO_DEPRECATE"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="BOOST_AUTO_LINK_TAGGED=BOOST_AUTO_LINK_TAGGED"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="COFS_MODEL_TYPE_APPLICATION_MODELING=COFS_MODEL_TYPE_APPLICATION_MODELING"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="COFS_SOURCE_CODEGEN_SYSTEMC=COFS_SOURCE_CODEGEN_SYSTEMC"/>
+                                    								
+                                </option>
+                                								
+                                <option id="com.cofluent.studio.msvc.cl.option.others.185004386" name="Other Options" superClass="com.cofluent.studio.msvc.cl.option.others" valueType="stringList">
+                                    									
+                                    <listOptionValue builtIn="false" value="/W3 /GR /Zm200 /vmg /TP /Gy"/>
+                                    								
+                                </option>
+                                								
+                                <inputType id="com.cofluent.studio.msvc.cl.inputType.628113796" superClass="com.cofluent.studio.msvc.cl.inputType"/>
+                                								
+                                <inputType id="com.cofluent.studio.msvc.cl.c.inputType.1249750652" superClass="com.cofluent.studio.msvc.cl.c.inputType"/>
+                                							
+                            </tool>
+                            							
+                            <tool commandLinePattern="${COMMAND} ${INPUTS} ${FLAGS} ${OUTPUT_FLAG} ${OUTPUT_PREFIX}${OUTPUT}" id="com.cofluent.studio.msvc.link.exe.release.1786297494" name="Linker (link)" superClass="com.cofluent.studio.msvc.link.exe.release">
+                                								
+                                <option id="com.cofluent.studio.msvc.link.option.libpath.744189907" name="Additional Libpath (/libpath)" superClass="com.cofluent.studio.msvc.link.option.libpath" valueType="libPaths">
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${scl_accellera_loc:/lib/msvc-16.0/}&quot;"/>
+                                    									
+                                    <listOptionValue builtIn="false" value="&quot;${workspace_loc:/${ProjName}/external/lib}&quot;"/>
+                                    								
+                                </option>
+                                								
+                                <option id="com.cofluent.studio.msvc.link.option.libraries.1122392929" name="Libraries" superClass="com.cofluent.studio.msvc.link.option.libraries" valueType="libs">
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="systemc.lib"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="cofscl.lib"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="libcpmt.lib"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="libcmt.lib"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="oldnames.lib"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="kernel32.lib"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="user32.lib"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="gdi32.lib"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="winspool.lib"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="comdlg32.lib"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="advapi32.lib"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="shell32.lib"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="ole32.lib"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="oleaut32.lib"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="uuid.lib"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="odbc32.lib"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="odbccp32.lib"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="netapi32.lib"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="comctl32.lib"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="ws2_32.lib"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="wsock32.lib"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="rpcrt4.lib"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="wbemuuid.lib"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="wintrust.lib"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="crypt32.lib"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="psapi.lib"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="Shlwapi.lib"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="dhcpcsvc.lib"/>
+                                    									
+                                    <listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="legacy_stdio_definitions.lib"/>
+                                    								
+                                </option>
+                                								
+                                <inputType id="com.cofluent.studio.msvc.link.inputType.831053017" superClass="com.cofluent.studio.msvc.link.inputType"/>
+                                							
+                            </tool>
+                            						
+                        </toolChain>
+                        					
+                    </folderInfo>
+                    					
+                    <sourceEntries>
+                        						
+                        <entry excluding="**/cf*.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="bw_manager/gen-sysc/bw_managerApp"/>
+                        						
+                        <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="external"/>
+                        					
+                    </sourceEntries>
+                    				
+                </configuration>
+                			
+            </storageModule>
+            			
+            <storageModule moduleId="org.eclipse.cdt.core.externalSettings"/>
+            		
+        </cconfiguration>
+        	
+    </storageModule>
+    	
+    <storageModule moduleId="org.eclipse.cdt.core.pathentry"/>
+    	
+    <storageModule moduleId="cdtBuildSystem" version="4.0.0">
+        		
+        <project id="bw_manager.cofluent.managedbuild.target.msvc.exe.698137504" name="CoFluent Visual C++ Executable" projectType="cofluent.managedbuild.target.msvc.exe"/>
+        	
+    </storageModule>
+    	
+    <storageModule moduleId="scannerConfiguration">
+        		
+        <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+        		
+        <scannerConfigBuildInfo instanceId="cofluent.managedbuild.config.msvc2019.exe.release.1595560502;cofluent.managedbuild.config.msvc2019.exe.release.1595560502.;com.cofluent.studio.msvc.cl.exe.release.1854725435;com.cofluent.studio.msvc.cl.c.inputType.1249750652">
+            			
+            <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+            		
+        </scannerConfigBuildInfo>
+        		
+        <scannerConfigBuildInfo instanceId="cofluent.managedbuild.config.msvc2019.exe.release.1595560502;cofluent.managedbuild.config.msvc2019.exe.release.1595560502.;com.cofluent.studio.msvc.cl.exe.release.1854725435;com.cofluent.studio.msvc.cl.inputType.628113796">
+            			
+            <autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+            		
+        </scannerConfigBuildInfo>
+        	
+    </storageModule>
+    	
+    <storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+    
+</cproject>

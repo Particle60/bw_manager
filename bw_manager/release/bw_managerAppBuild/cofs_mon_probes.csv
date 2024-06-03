@@ -1,0 +1,7 @@
+component_name,component_type,probe_configuration
+/bw_managerApp/Producer[0],FUNCTION,MON_STATE_ONLY
+/bw_managerApp/MsgQ[0],MESSAGE_QUEUE,MON_STATE_ONLY
+/bw_managerApp/Consumer[0],FUNCTION,MON_STATE_ONLY
+/bw_managerApp/Producer[1],FUNCTION,MON_STATE_ONLY
+/bw_managerApp/MsgQ[1],MESSAGE_QUEUE,MON_STATE_ONLY
+/bw_managerApp/Consumer[1],FUNCTION,MON_STATE_ONLY

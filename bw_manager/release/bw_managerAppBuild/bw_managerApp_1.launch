@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.cofluent.studio.internal.othertools.cofluentLaunchConfigurationType">
+    <stringAttribute key="com.cofluent.studio.simulation.ATTR_END_TIME" value="1.0"/>
+    <stringAttribute key="com.cofluent.studio.simulation.ATTR_END_TIME_UNIT" value="US"/>
+    <booleanAttribute key="com.cofluent.studio.simulation.ATTR_GENERATE_TRACE_FILE" value="false"/>
+    <booleanAttribute key="com.cofluent.studio.simulation.ATTR_IS_ARCHITECTURE_PROFILING" value="false"/>
+    <booleanAttribute key="com.cofluent.studio.simulation.ATTR_IS_PROFILING" value="false"/>
+    <stringAttribute key="com.cofluent.studio.simulation.ATTR_MODEL_PATH" value="/bw_manager/bw_manager/models/bw_managerApp.cf_app"/>
+    <stringAttribute key="com.cofluent.studio.simulation.ATTR_START_TIME" value="0.0"/>
+    <stringAttribute key="com.cofluent.studio.simulation.ATTR_START_TIME_UNIT" value="US"/>
+    <stringAttribute key="com.cofluent.studio.simulation.ATTR_TIME_UNIT" value="NS"/>
+    <mapAttribute key="org.eclipse.debug.core.environmentVariables">
+        <mapEntry key="PATH" value="${mingw_loc};${mingw_loc:/mingw-gcc-9.2.0}/bin;${mingw_loc};${mingw_loc:/mingw-gcc-9.2.0}/bin;${env_var:PATH}"/>
+        <mapEntry key="SYSTEMC_DISABLE_COPYRIGHT_MESSAGE" value="SYSTEMC_DISABLE_COPYRIGHT_MESSAGE"/>
+    </mapAttribute>
+    <stringAttribute key="org.eclipse.ui.externaltools.ATTR_LOCATION" value="${workspace_loc:/bw_manager/bw_manager/release/bw_managerAppBuild/bw_managerApp.exe}"/>
+    <stringAttribute key="org.eclipse.ui.externaltools.ATTR_TOOL_ARGUMENTS" value="--cf-gui-connect=yes --cf-gui-socket=${cfs.port.number} --cf-gui-time-scale=${cfs.sim.time} --cf-mon-on-time=&quot;${cfs.start.time}&quot; --cf-sim-duration=&quot;${cfs.sim.duration}&quot; --cf-verbosity=${cfs.verbosity.level} --cf-hpf-enable=${cfs.enable.profiling} --cf-apf-enable=${cfs.enable.architecture.profiling} --cf-state-func-to-smq=no --cf-gui-trace-enable=${cfs.generate.trace.file} --cf-lic-location=&quot;${cfs.license.location}&quot;"/>
+    <stringAttribute key="org.eclipse.ui.externaltools.ATTR_WORKING_DIRECTORY" value="${workspace_loc:/bw_manager/bw_manager/release/bw_managerAppBuild}"/>
+</launchConfiguration>

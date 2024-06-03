@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<charts:TimelineChart xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:charts="http://cofluent.intel.com/charts/1.0.0" xmlns:cofluent="http://cofluent.intel.com/cofluent/1.0.0" rangeTime="false" locked="false" zoomRange="false" fillColor="-1" captionPosition="SOUTH" grid="false" cursor="true" enableTracking="false">
+  <probes xsi:type="charts:StaticProbe" messageCount="true" range="0" showProcessor="false">
+    <element xsi:type="cofluent:Function" href="../bw_managerApp.cf_app#_WRSOkBv9Ee-PFaYXMhqU7A"/>
+  </probes>
+  <probes xsi:type="charts:StaticProbe" messageCount="true" range="0" showProcessor="false">
+    <element xsi:type="cofluent:MessageQueue" href="../bw_managerApp.cf_app#_Xw_t0Bv9Ee-PFaYXMhqU7A"/>
+  </probes>
+  <probes xsi:type="charts:StaticProbe" messageCount="true" range="0" showProcessor="false">
+    <element xsi:type="cofluent:Function" href="../bw_managerApp.cf_app#_WmuTEBv9Ee-PFaYXMhqU7A"/>
+  </probes>
+  <probes xsi:type="charts:StaticProbe" messageCount="true" range="1" showProcessor="false">
+    <element xsi:type="cofluent:Function" href="../bw_managerApp.cf_app#_WRSOkBv9Ee-PFaYXMhqU7A"/>
+  </probes>
+  <probes xsi:type="charts:StaticProbe" messageCount="true" range="1" showProcessor="false">
+    <element xsi:type="cofluent:MessageQueue" href="../bw_managerApp.cf_app#_Xw_t0Bv9Ee-PFaYXMhqU7A"/>
+  </probes>
+  <probes xsi:type="charts:StaticProbe" messageCount="true" range="1" showProcessor="false">
+    <element xsi:type="cofluent:Function" href="../bw_managerApp.cf_app#_WmuTEBv9Ee-PFaYXMhqU7A"/>
+  </probes>
+  <model xsi:type="cofluent:Application" href="../bw_managerApp.cf_app#_Tu0R0Bv9Ee-PFaYXMhqU7A"/>
+</charts:TimelineChart>
